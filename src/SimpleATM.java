@@ -2,7 +2,7 @@ import java.util.*;
 
 public class SimpleATM
 {
-	HashMap <String, Double> map = new HashMap <> ();
+	private HashMap <String, Double> map = new HashMap <> ();
 	
 	public void deposit (String id, double amount)
 	{
