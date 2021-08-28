@@ -2,9 +2,7 @@ import java.util.*;
 
 public class SimpleATM
 {
-	ArrayList bank = new ArrayList (String);
-	String id;
-	double amount;
+	HashMap <String, Integer> map = new HashMap <> ();
 	
 	public void deposit (String id, double amount)
 	{
