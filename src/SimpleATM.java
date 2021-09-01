@@ -28,7 +28,7 @@ public class SimpleATM
 		}
 		else
 		{
-			System.out.println("no such id exists");
+			throw new IndexOutOfBoundsException("no such id exists");
 		}
 	}
 	public void deposit (String id, double amount)
