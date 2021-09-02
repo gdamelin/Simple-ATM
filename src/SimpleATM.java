@@ -2,10 +2,10 @@ import java.util.*;
 public class SimpleATM
 {
 	private HashMap <String, Double> map = new HashMap <> ();
-	public double checkBalance(String id)
+	public double checkBalance(String AccountID)
 	{
-		if(map.containsKey(id)) {
-			return map.get(id);
+		if(map.containsKey(AccountID)) {
+			return map.get(AccountID);
 		}
 		else
 		{
